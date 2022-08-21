@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnShowToast.setOnClickListener {
-            Toast.makeText(this, "Тостик, запущенный из Активити", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Тостик, запущенный из Activity", Toast.LENGTH_LONG).show()
         }
 
         binding.btnShowSystemService.setOnClickListener {
-
+            SystemIntentService.run(this, "Тостик, запущенный из SystemIntentService")
         }
 
         binding.btnShowCustomService.setOnClickListener {
