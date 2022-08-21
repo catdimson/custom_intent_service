@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnShowCustomService.setOnClickListener {
-
+            CustomIntentService.run(this, "Тостик, запущенный из CustomIntentService")
         }
     }
 }

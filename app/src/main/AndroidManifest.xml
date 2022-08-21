@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomIntentService">
-
+        <service
+            android:name=".CustomIntentService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".AbstractCustomIntentService"
+            android:enabled="true"
+            android:exported="false" />
         <service
             android:name=".SystemIntentService"
             android:enabled="true"
