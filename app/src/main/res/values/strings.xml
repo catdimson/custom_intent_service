@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CustomIntentService</string>
+    <string name="run_without_service">Запустить вне сервиса</string>
+    <string name="run_with_system_service">Запустить в андроид сервисе</string>
+    <string name="run_with_custom_service">Запустить в кастомном сервисе</string>
 </resources>
